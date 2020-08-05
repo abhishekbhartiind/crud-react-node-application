@@ -1,0 +1,29 @@
+.input_group p, .textarea_container p {
+    margin-left: 2px;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.54);
+    padding: 0;
+    padding-bottom: 4px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-top: 8px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+input, select, textarea {
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 8px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    padding: 1em;
+    overflow: hidden;
+    margin-bottom: 1em;
+    transition: all 0.2s ease 0s;
+    outline: none;
+    width: 100%;
+    box-shadow: 3px 3px 7px 0 rgba(78, 148, 233, 0.4);
+    border: 1px solid transparent;
+}
